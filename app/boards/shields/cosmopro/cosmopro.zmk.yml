@@ -1,0 +1,13 @@
+file_format: "1"
+id: cosmopro
+name: cosmo-pro
+type: shield
+url: https://github.com/rianadon/Cosmos-Keyboards
+features:
+  - keys
+  - underglow
+  - encoder
+  - studio
+siblings:
+  - cosmopro_left
+  - cosmopro_right
