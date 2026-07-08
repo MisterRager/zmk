@@ -376,6 +376,8 @@ jobs:
         uses: actions/github-script@v7
         id: organize-metadata
         with:
+          env:
+            ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: "true"
           script: |
             const hardware = JSON.parse(`${{ steps.aggregate-metadata.outputs.result }}`);
 
